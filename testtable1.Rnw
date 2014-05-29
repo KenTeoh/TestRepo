@@ -1,0 +1,23 @@
+\documentclass{article}
+
+\begin{document}
+\SweaveOpts{concordance=TRUE}
+
+\begin{table}[ht]
+\caption{Nonlinear Model Results} % title of table
+\centering                        % used for centering the table
+\begin{tabular}{c c c c}          % centered columns (4 columns)
+\hline\hline                      % insert double horizontal lines
+Case & Method\#1 & Method\#2 & Method\#3 \\ [0.5ex] % inserts table heading
+\hline                            % inserts single horizontal line
+1 & 50 & 837 & 970 \\             % inserts body of the table
+2 & 47 & 877& 230  \\
+3 & 31 & 25 & 415  \\
+4 & 35 & 144 & 2356\\
+5 & 45 & 300 & 556 \\ 
+\hline
+\end{tabular}
+\label{table:nonlin}
+\end{table}
+
+\end{document}
